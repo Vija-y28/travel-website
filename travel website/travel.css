@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+.travel{
+    background-image: url('images/travel-ibk7fgrvtvhs7qzg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.travel-one{
+    font-size:23px ;
+    margin-right: 220px;
+   
+}
+.travel-two a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 10px;
+    padding: 30px;
+    font-size: 19px;
+   
+}
+.travel-two a:hover{
+    color: rgb(51, 0, 255);
+    text-decoration:underline;
+    
+    
+}
+.container{
+    position: absolute;
+   line-height: 30px;
+   top: 120px;
+   left: 550px;
+}
+.container h1{
+    word-spacing: 0.5;
+    font-size: 40px;
+    color: rgb(186, 26, 82);
+    line-height: 35px;
+}
+.container p{
+    word-spacing: 0.5;
+    font-weight:500;
+    line-height: 20px;
+    margin-top: 11px;
+    margin-bottom: 9px;
+}
+.container button{
+    padding:6px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+  
+}.container button:hover{
+    transform: scale(1.1);
+    
+}
+.start-vaction{
+   text-align: center;
+    color: brown;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    line-height: 20px;
+    margin:0px 200px;
+}
+.user-service i{
+    color: rgb(233, 226, 226);
+    background-color: rgb(19, 19, 22);
+    padding: 10px;
+    border-radius: 50%;
+}
+.user-service p{
+    font-size: 13px;
+    margin-top: 6px;
+    width:100%;
+}
+.user-service h3{
+    margin-top: 6px;
+    width:100%
+}
+.user-service{
+     width:250px;
+     padding: 60px;
+     height: 240px;
+     background-color:white;
+     border:1px solid rgb(233, 224, 224);
+     text-align: center;
+}
+.our-package{
+    margin-top: 100px;
+   text-align: center;
+    margin-bottom: 60px;
+    color: brown;
+}
+.package{
+    display: flex;
+    justify-content: space-evenly;
+    margin:0px 380px;
+}
+.package  img{
+    width:230px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+}
+.package .user-one:hover{
+    transform: scale(1.1);
+}
+.package .user-two:hover{
+    transform: scale(1.1);
+}
+.package .user-three:hover{
+    transform: scale(1.1);
+}
+.divide{
+    display: flex;
+    
+}
+.divide i{
+    font-size: 8px;
+    margin-top: 5px;
+}
+.divide h4{
+    margin-right: 120px;
+}
+
+.package p{
+    font-size: 10px;
+    margin-top: 3px;
+}
+.most{
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: brown;
+}
+.destination{
+    display: flex;  
+  justify-content: space-around;
+    margin:0px 300px;
+    margin-bottom: 40px;
+}
+
+.destination .one{
+    background-image: url('images/chennai\ beach.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:290px;
+    height: 290px;
+    border-radius: 10px;
+    
+}
+.destination .two{
+    background-image: url('images/ooty.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:290px;
+    height: 290px;
+    border-radius: 10px;
+    
+}
+.destination .three{
+    background-image: url('images/thanjavur.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:290px;
+    height: 290px;
+    border-radius: 10px;
+    
+}
+.destina{
+    display: flex;  
+  justify-content: space-around;
+    margin:0px 300px;
+    margin-bottom: 80px;
+}
+
+.destina .one{
+    background-image: url('images/Coimbatore.shiva.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:290px;
+    height: 290px;
+    border-radius: 10px;
+    
+}
+.destina .two{
+    background-image: url('images/pondichery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:290px;
+    height: 290px;
+    border-radius: 10px;
+    
+}
+.destina .three{
+    background-image: url('images/Kodaikanal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:290px;
+    height: 290px;
+    border-radius: 10px;
+    
+}
+.destination h5{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.destination p{
+    font-size: 11px;
+    margin-left: 10px;
+}
+.destina h5{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.destina p{
+    font-size: 11px;
+    margin-left: 10px;
+}
+.destination .three{
+    color: aliceblue;
+}
+.destination .one:hover{
+    transform: scale(1.1);
+}
+.destination .two:hover{
+    transform: scale(1.1);
+}
+.destination .three:hover{
+    transform: scale(1.1);
+}
+.destina .one:hover{
+    transform: scale(1.1);
+}
+.destina .two:hover{
+    transform: scale(1.1);
+}
+.destina .three:hover{
+    transform: scale(1.1);
+}
+.contact {
+    display: flex;
+   justify-content: space-evenly;
+   background-color: rgb(148, 54, 160);
+   padding: 80px;
+}
+.contact li{
+    list-style: none;
+    color: rgb(36, 35, 35);
+    line-height: 30px;
+    
+}
+.contact h3{
+    color: rgb(219, 219, 225);
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.contact-four i{
+    font-size: 25px; 
+    color: black;
+}
+
